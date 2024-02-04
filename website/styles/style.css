@@ -1,0 +1,192 @@
+@media only screen and (max-width: 667px) {
+  body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+  }
+
+  .bovenstelogo {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 1em 1em 0em 1em;
+    background-color: rgb(228, 228, 203);
+    border: solid 0.1em;
+    font-size: small;
+  }
+
+  .uitleg{
+    background: rgb(228, 228, 203);
+    padding: 0.1em;
+    text-align: center;
+    border: solid 0.1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .ouder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+  }
+
+  .huisjeklikken {
+    grid-area: 1/1;
+    padding-left: 9.5em;
+    margin-bottom: 10em;
+  }
+
+  .lvormklikken {
+    grid-area: 1/1;
+  }
+
+  .bankklikken {
+    grid-area: 1/1;
+    margin-top: 15.5em;
+  }
+
+  /* .keuzemenu {
+    background-image: url(/website/img/boekenkastenopelkaar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .bovenvlakken {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .vierkant {
+    width: 3em;
+    height: 4em;
+    padding: 2em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+
+  }
+
+  .lvorm {
+    width: 3em;
+    height: 4em;
+
+    padding-right: 17em;
+    padding-bottom: 3em;
+  }
+
+  .bank {
+    width: 3em;
+    height: 4em;
+
+    padding-right: 17em;
+    padding-bottom: 1em;
+  } */
+
+  .minimapicoontje {
+    padding-top: 1.8em;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgb(228, 228, 203);
+    padding: 1em;
+    font-size: small;
+    margin-bottom: -5em;
+    margin-left: -1.8em;
+    margin-right: -1.8em;
+    margin-top: 3em;
+  }
+
+  .bovenstetekst {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: solid 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+    background-color: rgb(228, 228, 203);
+  }
+  .fotobankbieb {
+    padding-top: 2em;
+  }
+
+  .tussentekst {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    border: solid 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    background-color: rgb(228, 228, 203);
+    margin-bottom: 1em;
+  }
+
+  .benedentekst {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: solid 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+    background-color: rgb(228, 228, 203);
+  }
+
+  .fotohuisbieb {
+    padding-top: 2em;
+  }
+
+  .duurzaamheidtekst {
+    text-align: center;
+    border: solid 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+    background-color: rgb(228, 228, 203);
+  }
+
+  .handenfoto {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .minimap {
+    display: flex;
+    justify-content: center;
+  }
+
+.list{
+ padding: 0.1em;
+}
+
+  .tabel {
+    display: flex;
+    justify-content: center;
+    background: rgb(228, 228, 203);
+    align-items: center;
+    padding: 0.2em;
+    text-align: left;
+    border: solid 0.1em;
+    margin-top: 1em;
+  }
+
+  .ruimtetekstenicoon {
+    padding: 1em;
+  }
+  .ruimtetekstenicoonhuis {
+    padding: 1.3em;
+  }
+}
